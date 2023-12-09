@@ -1,0 +1,108 @@
+https://www.youtube.com/watch?v=pTFZFxd4hOI&t=768s
+
+docker build -t tagname
+
+
+to run the image
+
+- docker run hello-docker
+
+
+pull
+
+docker pull tarantino19/hello-docker
+
+verify: docker images or docker image ls
+
+docker run tarantino19/hello-docker
+
+
+
+LINUX DISTRIBUTIONS:
+
+docker run ubuntu
+
+docker ps - running containers
+docker ps
+docker ps -a
+
+docker run -it ubuntu    (shell - a program that takes a program and pass to OS)
+
+echo
+whoami
+echo $0 - location of program
+linux case sensitive
+
+up and down arrow
+history
+!number here
+
+
+PACKAGE MANAGERS
+
+apt
+apt-get
+apt install nano (example package)
+app list 
+apt update (of it cant find all files nano)
+
+
+
+pwd
+ls
+ls -1 (para list pababa)
+cd 
+cd /absolute path
+cd..
+cd ~ (home directory)
+
+etc (config files)
+
+mv test docker
+ls
+touch - new files
+mkdir - new folder
+code . to open
+
+mv - to move to a directory
+mv hello.txt helldocket.txt
+rename
+mv hello.txt  /directory
+
+remove files
+rm file1.txt
+
+or a pattern
+
+rm file*
+
+
+remove directoru
+
+rm -r docker/
+
+nano file1.txt
+
+ctrl x for linux
+
+cat file1.txt  to see the content
+
+more file1.txt - for longer text content
+
+
+
+redirection
+
+cat file1.txt file2.txt
+cat file1.txt file2.txt - concatenate files
+it will copy the content from file1 to  > file2 - concontenate the content there to the new file
+
+
+
+
+
+
+
+
+
+
